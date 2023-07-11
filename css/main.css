@@ -44,6 +44,7 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 18px;
+    font-family: 'myFont';
 }
 
 /* flexs the main content in a column direction to align items to center and match mock-up */
