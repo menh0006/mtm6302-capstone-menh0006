@@ -233,7 +233,7 @@ button:hover {
     visibility: hidden;
 }
 
-.back-btn {
+.go-back {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -288,16 +288,15 @@ button:hover {
         margin-top: 0px;
         margin-bottom: 30px;
     }
-
-    .back-btn {
+    .quiz-text {
+        padding-left: 70px;
+    }
+    .go-back {
             display: flex;
             justify-content: center;
             width: 100%;
             gap: 15px;
             margin-top: 80px;
-    }
-    .quiz-text {
-        padding-left: 70px;
     }
     .back-icon {
         padding-left: 10px;
@@ -308,5 +307,6 @@ button:hover {
         font-family: myFont;
         font-size: 24px;
     }
+
 }
 
