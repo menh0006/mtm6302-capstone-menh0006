@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'myFont';
+    src: url("../fonts/copper.ttf");
+}
+/* Adds background image and cover to closelymatch the mock-up */
+body {
+    background-image: url("../images/background-image.png");
+    background-size: cover;
+    font-family: 'myFont';
+}
+
+.title {
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.centerimg {
+   display: block;
+   margin: 0 auto;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+}
+
+p {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn {
+    border: 1px black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 130px;
+    text-align: center;
+    background-color: rgb(125, 67, 122);    
+    color: white;
+}
+
+.wizard-img {
+    position: absolute;
+    left: 5%;
+    transform: translateY(-80%);
+}
