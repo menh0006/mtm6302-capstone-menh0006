@@ -9,6 +9,7 @@
 body {
     background-image: url("../images/background-image.png");
     font-family: 'myFont';
+    background-size: 100% 100%;
 }
 /* Adds flex and space between to have the difficulty level on left side of the screen and score on right side */
 .nav {
@@ -306,7 +307,10 @@ button:hover {
     .back-text {
         font-family: myFont;
         font-size: 24px;
+        color: black;
+        font-weight: bolder;
     }
+    
 
 }
 
