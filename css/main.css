@@ -9,6 +9,11 @@ body {
     font-family: 'myFont';
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
 .title {
     font-weight: bold;
     font-size: 70px;
