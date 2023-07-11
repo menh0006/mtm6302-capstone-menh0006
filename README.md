@@ -33,3 +33,4 @@ I will probably use bootstrap for when I include the JS though.
 Finally, I realised once you get started and go past the first blockages (not targeting the right elements, not having the right structure on html or css at first...), the rest follows more easily and the ball just keeps rolling from there on.
 
 
+
