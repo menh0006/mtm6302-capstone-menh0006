@@ -1,3 +1,5 @@
+/********** HOME PAGE MOBILE STYLING **********/
+
 /* Adds font used for mockup: Copperplate Gothic */
 @font-face {
     font-family: 'myFont';
@@ -86,7 +88,10 @@ button:hover {
     visibility: hidden;
 }
 
-
+/* removes link under a tag */
+a {
+    text-decoration: none;
+}
  /******************************************************** ADDS MEDIA QUERY FOR DESKTOP ****************************************************/
 
 
@@ -184,3 +189,17 @@ button:hover {
 }
 
 }
+
+
+
+/*************** QUESTION PAGE *************/
+
+/***** MOBILE VERSION *******/
+
+
+
+
+
+
+
+/***** DESKTOP VERSION ******/
