@@ -6,7 +6,101 @@
 /* Adds background image and cover to closelymatch the mock-up */
 body {
     background-image: url("../images/background-image.png");
-    background-size: cover;
+    font-family: 'myFont';
+}
+/* Adds flex and space between to have the difficulty level on left side of the screen and score on right side */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Aligns main heading to center on the x axis */
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+/* Centering the hat image on the x axis */
+.centerimg {
+    display: block;
+    margin: 0 auto;
+ }
+
+/* Styles "Select Difficulty" heading and removes margin top to get it closer to the hat */
+h2 {
+    color: white;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* Increases font weight and size, as well as uppercase to make the button's text readable and to match mock-up */
+.btn-text {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/* flexs the main content in a column direction to align items to center and match mock-up */
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+/* flexes the elements inside the buttons: svg and paragraph text, to align them, space them evenly and match mock-up */
+button {
+    border: 1px black;
+    border-radius: 50px;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+    background-color: rgb(125, 67, 122);    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 33px;
+    padding-left: 0px;
+} 
+
+/* adds animation and styling for when hovering the buttons to make them look nicer and clickable */
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 40px 0 rgba(0, 0, 0, 0.408);
+    cursor: pointer;
+    animation: pulse;
+    animation-duration: 2s
+}
+
+/* hides the wizard image when on mobile to save space */
+.wizard-img {
+    visibility: hidden;
+}
+
+
+ /******************************************************** ADDS MEDIA QUERY FOR DESKTOP ****************************************************/
+
+
+
+@media only screen and (min-width: 768px) {
+
+/* Adds font used for mockup: Copperplate Gothic */
+@font-face {
+    font-family: 'myFont';
+    src: url("../fonts/copper.ttf");
+}
+/* Adds background image with 130% on the height to cover the whole page on desktop */
+body {
+    background-image: url("../images/background-image.png");
+    background-size: 100% 130%;
     font-family: 'myFont';
 }
 /* Adds flex and space between to have the difficulty level on left side of the screen and score on right side */
@@ -85,4 +179,7 @@ button:hover {
     position: absolute;
     left: 5%;
     transform: translateY(-70%);
+    visibility:visible; 
+}
+
 }
