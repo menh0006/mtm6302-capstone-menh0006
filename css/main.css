@@ -5,7 +5,7 @@
     font-family: 'myFont';
     src: url("../fonts/copper.ttf");
 }
-/* Adds background image and cover to closelymatch the mock-up */
+/* Adds background image to the body */
 body {
     background-image: url("../images/background-image.png");
     font-family: 'myFont';
@@ -39,6 +39,7 @@ h2 {
     font-size: 35px;
     margin-top: 0px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 /* Increases font weight and size, as well as uppercase to make the button's text readable and to match mock-up */
@@ -106,7 +107,7 @@ a {
 /* Adds background image with 130% on the height to cover the whole page on desktop */
 body {
     background-image: url("../images/background-image.png");
-    background-size: 100% 130%;
+    background-size: 100% 170%;
     font-family: 'myFont';
 }
 /* Adds flex and space between to have the difficulty level on left side of the screen and score on right side */
@@ -137,6 +138,7 @@ h2 {
     font-size: 45px;
     margin-top: 0px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 /* Increases font weight and size, as well as uppercase to make the button's text readable and to match mock-up */
@@ -170,6 +172,7 @@ button {
     justify-content: space-evenly;
     padding: 33px;
     padding-left: 0px;
+
 } 
 
 /* adds animation and styling for when hovering the buttons to make them look nicer and clickable */
@@ -197,9 +200,61 @@ button:hover {
 /***** MOBILE VERSION *******/
 
 
+/* resizes the A B C D Icon Imgs on mobile */ 
+.options-png {
+    height: 70px;
+}
 
+.question-button {
+    width: fit-content;
+} 
 
+/* changes padding to make all the buttons the same sizes with the newly added icons */
+.option-c {
+    height: 60px;
+    padding: 15px;
+}
 
+.option-b, .option-d {
+    padding: 10px;
+}
 
+.witch-img {
+    visibility: hidden;
+}
 
 /***** DESKTOP VERSION ******/
+
+@media only screen and (min-width: 768px) {
+
+    button {
+        border: 1px black;
+        border-radius: 50px;
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        background-color: rgb(125, 67, 122);    
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 33px;
+        padding-left: 0px;
+    } 
+
+    .quiz-grid {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 20% 20%;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .witch-img {
+        transform: translate(400%, -55%);
+        visibility:visible;
+    }
+}
+
