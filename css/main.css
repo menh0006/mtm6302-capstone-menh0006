@@ -68,7 +68,8 @@ button {
 button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 40px 0 rgba(0, 0, 0, 0.408);
     cursor: pointer;
-    
+    animation: pulse;
+    animation-duration: 1s
 }
 
 .wizard-img {
