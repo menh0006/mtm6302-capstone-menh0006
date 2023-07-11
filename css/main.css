@@ -213,8 +213,10 @@ button:hover {
 } 
 
 /* adds padding to the left of the text to center text */ 
-.btn-text {
+.quiz-text {
     padding-left: 60px;
+    font-family: myFont;
+    font-size: 24px;
 }
 
 /* changes padding to make all the buttons the same sizes with the newly added icons */
@@ -231,6 +233,23 @@ button:hover {
     visibility: hidden;
 }
 
+.back-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    margin-top: 80px;
+}
+
+.back-text {
+    font-size: 22px;
+    font-family: myFont;
+}
+
+.back-icon {
+    height: 2em;
+    padding-right: 10px;
+}
 /***** DESKTOP VERSION ******/
 
 @media only screen and (min-width: 768px) {
@@ -257,12 +276,37 @@ button:hover {
         justify-content: center;
         grid-template-columns: 20% 20%;
         width: 100%;
-        gap: 15px;
+        gap: 35px;
     }
 
     .witch-img {
-        transform: translate(400%, -55%);
+        transform: translate(400%, -105%);
         visibility:visible;
+    }
+
+    .quiz-question {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .back-btn {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            gap: 15px;
+            margin-top: 80px;
+    }
+    .quiz-text {
+        padding-left: 70px;
+    }
+    .back-icon {
+        padding-left: 10px;
+        padding-right: 0px;
+
+    }
+    .back-text {
+        font-family: myFont;
+        font-size: 24px;
     }
 }
 
