@@ -14,3 +14,7 @@ I also corrected some mistakes from the part 3, retrieved my API key and complet
 
 Unfortunately, due to personal circumstances, I was not able to fully pursue this project, but I still had a great learning experience this semester regarding JS (and php in CMS, which I found some similarities between the two) and I am looking forward to the opportunity to learn and practice more during next semester.
 
+Thanks for everything professor.
+
+Kindly,
+Amine.
